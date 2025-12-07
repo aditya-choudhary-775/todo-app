@@ -13,7 +13,7 @@ const TodoInput = () => {
 
   return (
     <>
-      <div className="flex-none w-full px-2 sm:px-3 lg:px-3 pb-3 lg:pb-4">
+      <div className="flex-none w-full px-2 sm:px-5 lg:px-6 pb-3 lg:pb-4">
         <div className="flex items-center gap-2 sm:gap-3 lg:gap-3">
           <input
             type="text"

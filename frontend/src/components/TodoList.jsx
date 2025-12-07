@@ -21,7 +21,7 @@ const TodoList = () => {
   return (
     <>
       <div
-        className={`flex-1 bg-gray-200 border mx-2 sm:mx-2 lg:mx-3 mb-3 lg:mb-3 px-1 py-1 sm:px-2 sm:py-2 lg:px-2 lg:py-2 rounded-3xl overflow-y-auto no-scrollbar w-11/12`}
+        className={`flex-1 ${todoList.length ? "bg-gray-100" : "bg-gray-200"} border mx-2 sm:mx-2 lg:mx-3 mb-3 sm:mb-5 lg:mb-6 px-1 py-1 sm:px-2 sm:py-2 lg:px-2 lg:py-2 rounded-3xl overflow-y-auto no-scrollbar w-11/12`}
       >
         {todoList.length ? (
           todoList.map((task) => <Task key={task.id} task={task} />)
